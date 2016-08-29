@@ -1,0 +1,203 @@
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+p,h1,h2,h3{
+    margin:0;
+    color:#fff
+}
+header{
+    background: rgba(0,0,0,.3);
+}
+
+.main_wrap{
+    background: #444 url("../img/banner.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,.1);
+    left: 0;
+    top: 0;
+}
+.nav .my_name{
+    display: block;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-left:20px;
+    color:#fff
+}
+.nav .my_message{
+    width: 200px;
+    height: 50px;
+}
+.nav .my_message a{
+    float: right;
+    display: block;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #fff;
+}
+.bottom{
+    width: 100%;
+    height: 600px;
+}
+.center{
+    width:200px;
+    height:250px;
+    margin:0 auto;
+    text-align: center;
+    padding:10px 0;
+    position: relative;
+    top:200px;
+}
+.center .line{
+    margin:0 auto;
+    width: 100px;
+    height: 2px;
+    background: #c0c0c0;
+}
+.center p{
+    margin-top:50px;
+    color: #fff;
+}
+.bottom .more{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -250px;
+    text-align: center;
+}
+.bottom .more a{
+    color: #fff;
+}
+
+.content{
+    width: 100%;
+    height:400px;
+    background: #00f3ea;
+    position: relative;
+}
+.word{
+    width:800px;
+    height: 300px;
+    text-align: center;
+    position: absolute;
+    top:50px;
+    color: #fff;
+}
+.content .word .line{
+    margin:20px auto;
+    width: 300px;
+    height: 2px;
+    background: #c0c0c0;
+}
+.word h2 ,
+.word h3{
+    padding:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider{
+    width: 200px;
+    height:350px;
+    background: #333;
+    position: fixed;
+    top:0;
+    right: -200px;
+}
+.slider li{
+    height: 30px;
+    width: 100%;
+    margin:20px 0;
+}
+.slider li a{
+    display: inline-block;
+    height: 30px;
+    width: 200px;
+    color: #fff;
+    margin: 15px 0;
+    line-height: 30px;
+    text-indent: 40px;
+    font-size: 18px;
+}
+.slider li a:hover{
+    background: #444;
+}
+#back{
+    position: fixed;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background: #444;
+    bottom:30px;
+    right:30px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
